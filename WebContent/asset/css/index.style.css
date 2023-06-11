@@ -1,0 +1,56 @@
+.overlay {
+    height:100%;
+    width: 100%;
+    position:absolute;
+    top: 0;
+    left: 0;
+    background-color:rgb(255, 255, 255);
+    opacity:0.3;
+    z-index: 1;
+ }
+
+ .main-bg {
+    position: relative;
+    background-color: rgb(0,46,102);
+    opacity: 0.8;
+    z-index: 1;
+ }
+
+ .main-header {
+     position: absolute;
+     z-index: 2;
+ }
+
+ .index-form {
+    height:100%;
+    width: 100%;
+    position:absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+ }
+
+ .video {
+     position: fixed;
+     z-index: 0;
+     min-width: 100%;
+     min-height: 100%;
+     top: 50%;
+     left: 50%;
+     transform: translateX(-50%) translateY(-50%);
+     width: auto;
+     height: auto;
+     
+ }
+
+ .form-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -5px;
+    margin-left: -5px;
+  }
+  .form-row > .col,
+  .form-row > [class*=col-] {
+    padding-right: 5px;
+    padding-left: 5px;
+  }

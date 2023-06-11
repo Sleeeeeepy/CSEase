@@ -1,0 +1,31 @@
+.title {
+    margin-top: 30px;
+}
+
+.date {
+    padding: 4px 0 4px 10px;
+    margin-left: 10px;
+    border-left: 1px solid rgb(128, 128, 128);
+}
+
+.line-break {
+    word-break: break-all;
+}
+
+.paste {
+    margin-top: 30px;
+}
+
+.btn-circle.btn-xl {
+    width: 70px;
+    height: 70px;
+    padding: 10px 16px;
+    border-radius: 35px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.recommend-icon {
+    width:35px;
+    height:35px;
+}

@@ -1,0 +1,15 @@
+.round-form {
+    border-radius: .75rem;
+}
+
+.login-form {
+    width: 400px;
+}
+
+.signup-form {
+    max-width: 400px;
+    width: 90%;
+    margin: 0 auto;
+    background-color:  white;
+    padding: 40px 60px;
+}

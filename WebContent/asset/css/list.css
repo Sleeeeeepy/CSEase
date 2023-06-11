@@ -1,0 +1,15 @@
+.fs-12px {
+    font-size: 12px;
+}
+
+.tag {
+    background-color: rgb(200, 225, 255);
+    padding: 0 10px;
+    border-color: rgb(200, 225, 255);
+}
+
+.user-text {
+    color: lightgray;
+    margin: 0;
+    padding: 0;
+}
